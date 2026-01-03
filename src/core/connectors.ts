@@ -2708,4 +2708,10 @@ export default <ConnectorMeta[]>[
 		js: 'xraydio.js',
 		id: 'xraydio',
 	},
+	{
+		label: 'Cytu.be',
+		matches: ['*://cytu.be/r/*'],
+		js: 'cytu-be.js',
+		id: 'cytu-be',
+	},
 ];
