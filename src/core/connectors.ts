@@ -2714,4 +2714,10 @@ export default <ConnectorMeta[]>[
 		js: 'cytu-be.js',
 		id: 'cytu-be',
 	},
+	{
+		label: 'Telegram Audio Player',
+		matches: ['*://teleplay.rv7.nl/*'],
+		js: 'teleplay.js',
+		id: 'teleplay',
+	},
 ];
